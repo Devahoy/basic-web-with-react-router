@@ -15,10 +15,10 @@ class App extends Component {
             </div>
             <div className="navbar-menu">
               <div className="navbar-end">
-                <NavLink to="/" className="navbar-item" href="#">Home</NavLink>
-                <NavLink to="/posts" className="navbar-item" href="#">Posts</NavLink>
-                <NavLink to="/projects" className="navbar-item" href="#">Projects</NavLink>
-                <NavLink to="/about" className="navbar-item" href="#">About</NavLink>
+                <NavLink to="/" className="navbar-item">Home</NavLink>
+                <NavLink to="/posts" className="navbar-item">Posts</NavLink>
+                <NavLink to="/projects" className="navbar-item">Projects</NavLink>
+                <NavLink to="/about" className="navbar-item">About</NavLink>
                 <a class="navbar-item" href="https://github.com/phonbopit" target="_blank">Star on <i className="fab fa-github"></i></a>
               </div>
             </div>
