@@ -15,7 +15,7 @@ class App extends Component {
             </div>
             <div className="navbar-menu">
               <div className="navbar-end">
-                <NavLink to="/" activeClassName="is-active" className="navbar-item">Home</NavLink>
+                <NavLink exact to="/" activeClassName="is-active" className="navbar-item">Home</NavLink>
                 <NavLink to="/posts" activeClassName="is-active" className="navbar-item">Posts</NavLink>
                 <NavLink to="/projects" activeClassName="is-active" className="navbar-item">Projects</NavLink>
                 <NavLink to="/about" activeClassName="is-active" className="navbar-item">About</NavLink>
@@ -25,9 +25,7 @@ class App extends Component {
           </div>
         </nav>
 
-        <div className="container">
-          <Routing />
-        </div>
+        <Routing />
       </div>
     )
   }
