@@ -17,7 +17,7 @@
     "prettier": "./node_modules/.bin/prettier --semi=false --single-quote=true --write src/*.js"
   },
   "devDependencies": {
-    "eslint": "^4.17.0",
+    "eslint": "^4.18.2",
     "eslint-config-react-app": "^2.1.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-flowtype": "^2.42.0",
